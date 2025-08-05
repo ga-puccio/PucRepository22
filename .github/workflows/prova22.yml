@@ -1,0 +1,11 @@
+name: Messaggio semplice
+
+on: [push]
+
+jobs:
+  stampa-messaggio:
+    runs-on: ubuntu-latest   # mantiene l'ambiente di esecuzione
+
+    steps:
+      - name: Stampa un messaggio
+        run: echo "spettacolo parte 2"

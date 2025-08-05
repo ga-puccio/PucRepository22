@@ -4,8 +4,8 @@ on: [push]
 
 jobs:
   stampa-messaggio:
-    runs-on: ubuntu-latest   # mantiene l'ambiente di esecuzione
+    runs-on: self-hosted   # mantiene l'ambiente di esecuzione
 
     steps:
       - name: Stampa un messaggio
-        run: echo "spettacolo parte 2"
+        run: echo "Sto girando sul runner self-hosted Windows"
